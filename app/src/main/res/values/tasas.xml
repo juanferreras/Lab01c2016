@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menor30_0_5000">0.25</string>
+    <string name="mayorigual30_0_5000">0.275</string>
+    <string name="menor30_5000_99999">0.30</string>
+    <string name="mayorigual30_5000_99999" >0.323</string>
+    <string name="menor30_99999">0.35</string>
+    <string name="mayorigual30_99999">0.385</string>
+</resources>

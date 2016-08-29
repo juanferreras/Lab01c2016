@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab01c2016</string>
+    <string name="title_name">Calculadora Plazo Fijo</string>
+    <string name="label_email">Correo electrónico</string>
+    <string name="label_cuit">CUIT</string>
+    <string name="label_importe">Importe</string>
+    <string name="label_dias">Cantidad de Días</string>
+    <string name="label_monto">Retorno</string>
+    <string name="checkbox_renovar">Renovar automáticamente al vencimiento</string>
+    <string name="button_text">Hacer plazo fijo</string>
+    <string name="label_success">Plazo fijo realizado. Recibirá %1$s al vencimiento</string>
+    <string name="label_error">Plazo fijo no realizado.</string>
+</resources>
