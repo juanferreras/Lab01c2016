@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
      * @throws Exception
      */
     private void validate() throws Exception {
-        if(importeEditText.getText().toString().equals("")){
+        if(importeEditText.getText().toString().isEmpty()){
             throw new AndroidAppException(getString(R.string.label_required_importe));
         }
 
