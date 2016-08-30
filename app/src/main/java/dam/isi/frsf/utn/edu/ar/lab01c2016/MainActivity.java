@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
         int dias = sliderSeekBar.getProgress();
         Double tasa = Double.parseDouble(getTasa(importe, dias));
 
-
-        return importe * (Math.pow((1 + tasa),(double) dias/360 ) - 1);
+        Double resultado = importe * (Math.pow((1 + tasa),(double) dias/360 ) - 1);
+        return Math.round(resultado * 100.0) / 100.0;
     }
 
     private String getTasa(int importe, int dias){
