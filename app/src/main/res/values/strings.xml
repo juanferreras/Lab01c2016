@@ -10,4 +10,6 @@
     <string name="button_text">Hacer plazo fijo</string>
     <string name="label_success">Plazo fijo realizado. Recibirá %1$s al vencimiento</string>
     <string name="label_error">Plazo fijo no realizado.</string>
+    <string name="label_required_importe">Debe ingresar un importe.</string>
+    <string name="label_required_dias">Debe ingresar Cantidad de días.</string>
 </resources>
